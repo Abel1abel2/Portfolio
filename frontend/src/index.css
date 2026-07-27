@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "DelthaFont";
+  src: url("/fonts/Deltha.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-delta: "DelthaFont", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  width: full;
+  background-color: #090f1e;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+
+  height: full;
+  box-sizing: border-box;
+}
+@utility clip {
+  width: max-content;
+
+  padding: 3px 15px 3px 15px;
+  background: #000000;
+
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000000;
+  }
+}
+@utility vclip {
+  height: max-content;
+  padding: 15px 3px 15px 3px;
+  background: #000000;
+  border-radius: 8px;
+  box-sizing: border-box;
+  left: 50px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: -8px;
+    height: 0;
+    width: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #000000;
+  }
+}
+.contain input {
+  display: none;
+}
+.contain .options {
+  flex: 1;
+  text-align: center;
+  font-family: var(--font-poppins);
+  border: none;
+  border-radius: 30px;
+
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.5s;
+}
+#opt2:checked ~ .back {
+  left: 25%;
+}
+#opt3:checked ~ .back {
+  left: 50%;
+}
+#opt4:checked ~ .back {
+  left: 75%;
+}
