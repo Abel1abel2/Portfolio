@@ -106,22 +106,22 @@ const Experience = () => {
                 <div className='img w-10 h-10 z-10   absolute top-[130px] sm:top-[180px] md:top-[120px]   rounded-[100%] bg-[#686969]'>
                     <img src={imgs.cs}  className='w-6 h-6 ml-1.5 mt-2 '/>
                 </div> 
-                <div className='line1 h-1 w-20  absolute left-[1px] top-[150px] sm:top-[200px] md:top-[140px] bg-white '></div>
+                <div className='line1 h-1 w-8 sm:w-11 md:w-14 lg:w-17  absolute left-[1px] top-[150px] sm:top-[200px] md:top-[140px] bg-white '></div>
              
                 <div  className='img w-10 h-10 z-10 absolute top-[330px] sm:top-[400px] md:top-[550px] rounded-[100%] bg-[#686969]'>
                       <img src={imgs.blend}  className='w-6 h-6 ml-1.5 mt-2 '/>
                 </div>
-                <div className='line2 h-1 w-20 z-0 absolute right-[1px] top-[350px] sm:top-[420px] md:top-[570px]  bg-white'></div>
+                <div className='line2 h-1 w-8 sm:w-11 md:w-14 lg:w-17 z-0 absolute right-[1px] top-[350px] sm:top-[420px] md:top-[570px]  bg-white'></div>
                
                 <div  className='img w-10 h-10 z-10 absolute top-[530px] sm:top-[630px] lg:top-[1167px] md:top-[1035px] rounded-[100%] bg-[#686969]'>
                   <img src={imgs.web}  className='w-6 h-6 ml-2 mt-2 '/>
                 </div>
-                <div className='line1 h-1 w-20  absolute left-[1px] top-[550px] sm:top-[650px] lg:top-[1187px] md:top-[1055px] bg-white'></div>
+                <div className='line1 h-1 w-8 sm:w-11 md:w-14 lg:w-17  absolute left-[1px] top-[550px] sm:top-[650px] lg:top-[1187px] md:top-[1055px] bg-white'></div>
              
                 <div  className='img w-10 h-10 z-10 absolute top-[730px] sm:top-[880px] lg:top-[1585px] md:top-[1385px] rounded-[100%] bg-[#686969]'>
                   <img src={imgs.threeD}  className='w-6 h-6 ml-1.5 mt-2 '/>
                 </div>
-                 <div className='line2 h-1 w-20 z-0 absolute right-[1px] top-[750px] sm:top-[900px] lg:top-[1605px] md:top-[1405px] bg-white'></div>
+                 <div className='line2 h-1 w-8 sm:w-11 md:w-14 lg:w-17  z-0 absolute right-[1px] top-[750px] sm:top-[900px] lg:top-[1605px] md:top-[1405px] bg-white'></div>
               
                 <div className='button absolute sm:top-[1070px] top-[900px]  lg:top-[1696px] md:top-[1496px] '>
               <a href={imgs.file} download='resume'><button className='w-[180px] h-[60px] rounded-[10px] border-none cursor-pointer bg-black  '>

@@ -1,14 +1,14 @@
 import {projects} from '../assets/index'
 const Project = () => {
   return (
-    <div id='project' className='  py-10  px-3  md:w-[60%] lg:w-[50%] md:ml-[calc(50%-120px)] lg:ml-[calc(60%-170px)] h-[70%] '>
+    <div id='project' className=' py-10  px-3  md:w-[60%] lg:w-[50%] md:ml-[calc(50%-120px)] lg:ml-[calc(60%-170px)] h-[70%] '>
       
       <div className='flex flex-col space-y-10 h-full  ml-[50px]  '>
            
-            <div className='sm:text-[32px]  lg:px-2 text-[18px] font-delta'>Projects</div>
+            <div className='sm:text-[32px] z-10 lg:px-2 text-[18px] font-delta'>Projects</div>
           
           
-            <div className=' flex flex-col '>
+            <div className=' flex flex-col z-10 '>
                 <div className=' px-5 flex space-x-3 py-10 items-center w-[100%]'>
 
                     <div className='w-[50%] flex flex-col  space-y-5 justify-between '>

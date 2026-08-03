@@ -21,7 +21,7 @@ const Connect = () => {
   return (
     <form ref={form} onSubmit={sendEmail} id='connect' className='w-full  sm:w-[80%] md:w-[50%] sm:ml-10 md:ml-[calc(60%-170px)] h-full flex items-center justify-center  sm:p-4'>
       {/* Fixed layout spacing so elements don't collapse to 0px */}
-      <div className='w-full max-w-2xl px-15 flex flex-col space-y-6  p-6 rounded-xl shadow-md bg-black/50'>
+      <div className='w-full z-10 max-w-2xl px-15 flex flex-col space-y-6  p-6 rounded-xl shadow-md bg-black/50'>
 
         <div className='w-full ml-[10%] sm:ml-0 sm:p-3 rounded sm:text-center '>
           <h1 className='font-delta sm:text-[32px]  text-[18px]'>Lets Connect</h1>
@@ -66,7 +66,7 @@ const Connect = () => {
         </div>
 
         {/* Submit Button Row */}
-        <div className='w-full  p-3 rounded flex justify-end'>
+        <div className='w-full  p-3 mb-4 rounded flex justify-end'>
          <button className='sm:w-[30%] w-[50%] h-[40px] sm:h-[60px] rounded-[10px] border-none cursor-pointer bg-black  '>
               <span className='font-poppins block rounded-[10px] bg-blue-500 px-[5px] sm:px-[10.5px] py-[10px] sm:py-[15.5px] transform translate-y-[-0.2em] transition-all duration-100 ease-in hover:translate-y-[-0.33em] active:translate-y-0 sm:text-[16px] text-[12px]'>Send Message</span>
               </button>
