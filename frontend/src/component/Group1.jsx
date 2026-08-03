@@ -41,14 +41,14 @@ const Group1 = ({data}) => {
       <div className='card lg:mt-0 sm:mt-[50px] mt-[20px]'>
         <h1>{data[0].year}</h1>
       </div>
-      <div className='card2 z-50 bg-white px-1 sm:px-1 lg:px-5  md:mt-[100px] mt-[60px] sm:mt-[40px] lg:mt-0 md:px-2  w-[100%] rounded-[10px] sm:h-[10%] h-[13%] md:h-[7%] flex flex-col space-y-2 '>
+      <div className='card2 z-50 bg-white px-1 sm:px-1 lg:px-5  md:mt-[100px] mt-[60px] sm:mt-[40px] lg:mt-0 md:px-2  w-[100px] sm:w-[100%] rounded-[10px] sm:h-[10%] h-[15%] md:h-[7%] flex flex-col space-y-2 '>
       <h1 className='text-black font-bold lg:text-[24px] md:text-[16px] text-[14px]'> {data[1].title}</h1> 
       <p className='text-black lg:text-[14px] text-[12px]'>{data[1].content}</p>
       </div>
       <div className='card -mt-[100px] md:mt-0 sm:-mt-[100px]'>
         <h1>{data[2].year}</h1>
       </div>
-      <div className='card2 z-50 bg-white  w-[100%] rounded-[10px] h-[13%] sm:h-[10%] md:h-[7%] md:mb-0 sm:mb-[70px] mb-[40px] flex flex-col space-y-2 lg:px-5 md:px-2 px-1 sm:px-1  '>
+      <div className='card2 z-50 bg-white w-[100px] sm:w-[100%] rounded-[10px] h-[15%] sm:h-[10%] md:h-[7%] md:mb-0 sm:mb-[70px] mb-[40px] flex flex-col space-y-2 lg:px-5 md:px-2 px-1 sm:px-1  '>
         <h1 className='text-black font-bold lg:text-[24px] md:text-[16px] text-[14px]'> {data[3].title}</h1> 
       <p className='text-black lg:text-[14px] text-[12px]'>{data[3].content}</p>
       </div>
