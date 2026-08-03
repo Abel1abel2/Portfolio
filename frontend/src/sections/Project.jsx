@@ -1,7 +1,7 @@
 import {projects} from '../assets/index'
 const Project = () => {
   return (
-    <div id='project' className='py-10  px-3  md:w-[60%] lg:w-[50%] md:ml-[calc(50%-120px)] lg:ml-[calc(60%-170px)] h-[1400px] '>
+    <div id='project' className='  py-10  px-3  md:w-[60%] lg:w-[50%] md:ml-[calc(50%-120px)] lg:ml-[calc(60%-170px)] h-[70%] '>
       
       <div className='flex flex-col space-y-10 h-full  ml-[50px]  '>
            
@@ -17,9 +17,9 @@ const Project = () => {
                     </div>
                     <div className='bg-[#D9D9D9]/8 w-[50%] '>
                         <a href='https://mern-auth-frontend-silk.vercel.app/'><img className='cursor-pointer' src={projects[0].img} /></a>
-                        <div className='px-1 py-1 flex space-x-2'>
+                        <div className='px-1 py-1 flex space-x-2 overflow-hidden'>
                             {
-                                projects[0].icons.map((item)=><img src={item} className='w-4 h-4 sm:w-6 sm:h-6' />)
+                                projects[0].icons.map((item)=><img src={item} className='w-3 h-3 sm:w-6 sm:h-6' />)
                             }
                         </div>
                     </div>
@@ -33,9 +33,9 @@ const Project = () => {
                     </div>
                     <div className='bg-[#D9D9D9]/8 w-[50%] '>
                         <a href='https://buna-shop-g65f.vercel.app/'><img className='cursor-pointer' src={projects[1].img} /></a>
-                          <div className='px-1 py-1 flex space-x-2'>
+                          <div className='px-1 py-1 flex space-x-2 overflow-hidden'>
                             {
-                                projects[1].icons.map((item)=><img src={item} className='w-4 h-4 sm:w-6 sm:h-6' />)
+                                projects[1].icons.map((item)=><img src={item} className='w-3 h-3 sm:w-6 sm:h-6' />)
                             }
                         </div>
                     </div>
@@ -49,9 +49,9 @@ const Project = () => {
                     </div>
                     <div className='bg-[#D9D9D9]/8 w-[50%] '>
                         <a href='https://lalibela-view.vercel.app/'><img className='cursor-pointer' src={projects[2].img} /></a>
-                          <div className='px-1 py-1 flex space-x-2'>
+                          <div className='px-1 py-1 flex space-x-2 overflow-hidden'>
                             {
-                                projects[2].icons.map((item)=><img src={item} className='w-4 h-4 sm:w-6 sm:h-6'/>)
+                                projects[2].icons.map((item)=><img src={item} className='w-3 h-3 sm:w-6 sm:h-6'/>)
                             }
                         </div>
                     </div>
@@ -65,9 +65,9 @@ const Project = () => {
                     </div>
                     <div className='bg-[#D9D9D9]/8 w-[50%] '>
                         <a href='https://pc-setup-room.vercel.app/'><img  className='cursor-pointer' src={projects[3].img} /></a>
-                          <div className='px-1 py-1 flex space-x-2'>
+                          <div className='px-1 py-1 flex space-x-2 overflow-hidden'>
                             {
-                                projects[3].icons.map((item)=><img src={item} className='w-4 h-4 sm:w-6 sm:h-6' />)
+                                projects[3].icons.map((item)=><img src={item} className='w-3 h-3 sm:w-6 sm:h-6' />)
                             }
                         </div>
                     </div>

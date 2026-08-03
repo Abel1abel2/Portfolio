@@ -7,10 +7,11 @@ const Group2 = ({data}) => {
     const cards=gsap.utils.toArray('.card1')
     cards.forEach((card)=>{
       gsap.fromTo(card,{
-          autoAlpha:0,
+          scaleX:0,
       },{
-        autoAlpha:1,
-        
+        scaleX:1,
+        transformOrigin:'center left',
+        ease:'none',
         scrollTrigger:{
           trigger:card,
           start:'top+=130 center',
