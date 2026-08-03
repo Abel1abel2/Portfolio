@@ -4,8 +4,8 @@ import {stack} from '../assets/index'
 const Tech = () => {
   const [skill,setSkill]=useState('Frontend')
   return (
-    <div id='tech' className=' sm:mt-0 mt-10 md:w-[50%] w-[80%] h-[90dvh]  lg:ml-[calc(60%-200px)] md:ml-[calc(60%-150px)] ml-15  flex flex-col items-center justify-center space-y-10'>
-      <div className='mt-30  '>
+    <div id='tech' className='  sm:mt-0 mt-10 md:w-[50%] w-[80%] h-[90dvh]  lg:ml-[calc(60%-200px)] md:ml-[calc(60%-150px)] ml-15  flex flex-col items-center justify-center space-y-10'>
+      <div className='mt-30 z-10  '>
         <h1 className='sm:text-[48px] md:text-[32px] text-[18px] font-delta'>Teck Stack</h1>
         </div>
 
@@ -23,7 +23,7 @@ const Tech = () => {
         </div>
         </div>
 
-        <div className=' w-[90%]  lg:w-[100%] h-full lg:px-[10%] px-[1%] '>
+        <div className='z-10 w-[90%]  lg:w-[100%] h-full lg:px-[10%] px-[1%] '>
           {
             skill=='Frontend'?<Skills data={stack} text={skill} />:null
           }

@@ -63,15 +63,14 @@ const Connect = () => {
             name='message'  
            
           />
-          
+        </div>
+
         {/* Submit Button Row */}
         <div className='w-full  p-3 rounded flex justify-end'>
          <button className='sm:w-[30%] w-[50%] h-[40px] sm:h-[60px] rounded-[10px] border-none cursor-pointer bg-black  '>
               <span className='font-poppins block rounded-[10px] bg-blue-500 px-[5px] sm:px-[10.5px] py-[10px] sm:py-[15.5px] transform translate-y-[-0.2em] transition-all duration-100 ease-in hover:translate-y-[-0.33em] active:translate-y-0 sm:text-[16px] text-[12px]'>Send Message</span>
               </button>
         </div>
-        </div>
-
 
       </div>
       <ToastContainer/>
