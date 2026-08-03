@@ -90,7 +90,7 @@ export const expert=[
      {
         year:'2023-current',
         title:'Full Stack',
-        content: 'Building responsive and secured web applications with modern packages' 
+        content: 'Building responsive and secured web applications' 
    },
      {
         year:'2023-current',
