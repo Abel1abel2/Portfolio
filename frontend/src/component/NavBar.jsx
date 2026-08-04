@@ -6,7 +6,7 @@ import { useState } from 'react'
      <> {/*<Card section='Home' ml='ml-[105px]' />*/} 
      {/*<Card section='Project' ml='ml-[185px]' />*/} 
      {/*<Card section='Experience' ml='ml-[253px]' />*/} 
-     <div className='fixed top-[25%]  sm:top-[calc(100vh-100px)] w-[60px] sm:w-[30%] z-50 sm:left-[35%]  h-[300px] sm:h-[100px]'>
+     <div className='fixed top-[25%]  sm:top-[calc(100vh-100px)] w-[60px] sm:w-[30%] z-50 sm:left-[10%]  h-[300px] sm:h-[100px]'>
       
      
       

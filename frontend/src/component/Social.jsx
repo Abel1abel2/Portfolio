@@ -4,7 +4,7 @@ const Social=()=>{
 
     return(
         <>
-            <div className=' z-100 fixed w-full px-10 '>
+            <div className=' z-10 fixed w-full px-10 bg-black/20 '>
 
                 <div className='flex justify-between  items-center '>
                 <div>
