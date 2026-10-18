@@ -43,7 +43,7 @@ const Hero = () => {
 
                               <div className='md:mt-7 sm:mt-10 mt-15  md:px-[5%] sm:px-[8%] px-[20%]  ml-[6%] lg:ml-[12%] w-[100%]   sm:w-[93%] flex sm:space-x-5 justify-center space-x-3  items-center z-0    '>
                                 <Card count={'4+'} text={'project'} resize={custom}  />
-                                <Card count={'5+'} text={'year'} resize={custom}/>
+                                <Card count={'3+'} text={'year'} resize={custom}/>
                                 <Card count={'12+'} text={'skills'} resize={custom} />
                               </div>
 
